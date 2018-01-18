@@ -1,16 +1,13 @@
-Smeu Florin-Ion
-312 CD
+Nume: Smeu Florin-Ion
+Email: florin.ion.smeu@gmail.com
+			
+			  ===============	
+			  PAINT SIMULATOR
+			  ===============
+			
 
-	PAINT SIMULATOR
-
-	-Am implementat cate o functie pentru rezolvarea fiecarui task.
-	
-	-Pentru usurinta, am definit structura "pixel", avand componentele r, g 
-si b.
-	
-	-De asemenea, exista in partea de inceput a fisierului sursa doua 
-functii "allocate_matrix" si "deallocate_matrix", care vor fi apelate in multe
-situatii ulterioare (am incercat astfel diminuarea redundantei codului).
+	Tema presupune implementarea anumitor functii de editare a imaginilor
+in format png.
 	
 	-Task 1: Initializare matrice
 		Functia "get_matrix" a fost construita pentru rezolvarea acestui
