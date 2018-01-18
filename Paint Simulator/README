@@ -1,0 +1,60 @@
+Smeu Florin-Ion
+312 CD
+
+	PAINT SIMULATOR
+
+	-Am implementat cate o functie pentru rezolvarea fiecarui task.
+	
+	-Pentru usurinta, am definit structura "pixel", avand componentele r, g 
+si b.
+	
+	-De asemenea, exista in partea de inceput a fisierului sursa doua 
+functii "allocate_matrix" si "deallocate_matrix", care vor fi apelate in multe
+situatii ulterioare (am incercat astfel diminuarea redundantei codului).
+	
+	-Task 1: Initializare matrice
+		Functia "get_matrix" a fost construita pentru rezolvarea acestui
+task. In cadrul ei se realizeaza citirea elementelor matricei. In functia 
+"main" a programului, in cadrul instrctiunii "switch", cazul 1, este apelata 
+"get_matrix". Variabila "is_read" reprezinta un flag ce indica daca matricea a 
+fost sau nu initializata (taskurile 2-7 depind tocmai de aceasta initializare). 
+
+	-Task 2: Crop
+		Functia "crop" are ca parametri matricea si liniile si coloanele 
+care definesc crop-ul. Este alocata o noua matrice, "new_mat", care va avea 
+dimensiunile rezultate dupa crop si elementele corespunzatoare din matricea 
+originala.
+
+	-Task 3: Resize
+		Pentru a rezolva aceasta sarcina, am construit functia "resize".
+Parametrii "new_height" si "new_width" definesc noile dimensiuni. Se observa ca
+in matricea "new_mat" este scrisa valoarea pixelului corespunzator din matricea 
+originala sau este scris un pixel alb (255, 255, 255), in functie de caz.
+
+	-Task 4: Colour
+		Este rezolvat cu ajutorul functiei "colour". Intre anumite 
+coordonate, pixelii matricei sunt suprascrisi cu noile valori: r, g, b.
+
+	-Task 5: Blur
+		In functia "blur", cat timp numarul de iteratii e nenul, este 
+alocata o noua matrice ("new_mat"), in care se va forma imaginea blurata. Pentru
+fiecare pixel din matricea originala, este facuta o medie a valorilor r, g, b 
+ale vecinilor. Media este scrisa in "new_mat". 
+	
+	-Task 6: Rotate
+		In functie de numarul de rotatii dorite (variabila "n_rot"), 
+se aloca matricea "new_mat", care va reprezenta matricea originala rotita.
+
+	-Task 7: Fill 
+		Am implementat functia "fill". Intai se suprascrie pixelul de pe
+pozitia "start_col", "start_line" cu valorile r, g, b. Pentru fiecare vecin 
+al sau, daca are aceeasi culoare cu pixelul original de la "start_col", 
+"start_line", se apeleaza recursiv functia fill. 
+	
+	-Task 8: Print
+		Sunt afisate mai intai inaltimea si latimea imaginii curente.
+Apoi, folosind functia "print_matrix" (implementata chiar la inceputul sursei), 
+este afisata imaginea. :)
+				
+		
+	 
