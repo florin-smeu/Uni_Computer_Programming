@@ -1,0 +1,28 @@
+Smeu Florin-Ion
+312 CD
+			
+				TEMA 1
+
+	Am rezolvat exercitiile 2, 3 si 4 din cadrul acestei teme.
+	
+	Exercitiul 2 (Zigzag):
+	    Am parcurs antidiagonalele matricei in ordinea indicata. In 
+rezolvarea pe care am realizat-o, diferentiez doua tipuri de parcurgere a 
+acestora. De asemenea, am tratat separat cazurile, in functie de paritatea
+ordinului matricei.  		
+	   
+	Exercitiul 3 (Morse): 
+	    A fost necesara implementarea unei functii suplimentare, pentru a 
+gasi codificarea morse a unei litere (find_letter). Aceasta parcurge recursiv 
+arborele si returneaza codificarea caracterului sau '*', cand acesta nu a fost 
+gasit.	Celelalte functii rezolva cerintele pentru care au fost create 
+(codificare, decodificare, etc.)  	 
+	
+	Exercitiul 4 (X si O):
+	    Pentru rezolvarea acestui exercitiu am implementat mai multe func-
+tii, a caror utilitate am explicat-o in fiecare din fisierele ".m" ale acesto-
+ra. Jocul de X si O afiseaza tabla la stdout, dupa fiecare mutare. Algoritmul 
+pe care l-am implementat face ca CPU sa nu piarda, iar, atunci cand acesta are 
+ocazia, castiga. Se retine scorul paridelor utilizator - calculator, iar ca 
+optiuni, utilizatorul poate incheia programul prin apasarea tastei 'q' si poate
+alege sa joace din nou, apasand 'r'.      	
