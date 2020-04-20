@@ -1,0 +1,36 @@
+Smeu Florin-Ion
+312 CD
+
+	IMAGE PROCESSING
+
+	-Am rezolvat taskurile 1, 2 si 4 din cadrul temei.
+
+	-Mai intai se citesc din fisierul "input.txt" numele fisierelor asupra 
+carora se va opera. Apoi, pe baza acestora, se va sti care vor fi numele 
+fisierelor rezultate in urma procesarilor.
+
+	-Se va citi continutul fisierului bitmap ce contine imaginea: cele doua
+headere si matricea de pixeli. Cele doua matrice "matrix" si "matrix_grey" sunt
+alocate dinamic, pe baza informatiilor obtinute din infoheader.Matricea de
+pixeli din fisierul bmp va fi retinuta in matricea "matrix". 
+
+	-Task 1 - Black and white
+	 Variabila "aux" va fi cea in care se va retine media valorilor rgb a
+pixelilor. De fiecare data, aceasta va fi scrisa in "matrix_grey", pe linia si
+coloana corespunzatoare. Acum vom scrie headerele fisierului bmp ce contine 
+imaginea alb-negru si matricea sa de pixeli - "matrix_grey".
+
+	-Task2 - Filters
+	 Am retinut filtrele intr-un tablou cu trei dimensiuni. Pentru fiecare
+filtru, scriu mai intai headerele fisierului bmp corespunzator. Deoarece 
+filtrele se aplica asupra unei imagini alb-negru, care are componentele r, g, b
+egale pentru fiecare pixel, am considerat in calcule doar valoarea componentei
+r (puteam la fel de bine sa o aleg pe oricare din cele trei).
+
+	-Task4 - Decompress
+	 Se citesc fileheaderul si infoheaderul fisierului binar ce contine 
+imaginea comprimata, cat si matricea de pixeli. "Matrix" va fi suprascrisa cu
+valorile corespunzatoare. Se scriu apoi headerele fisierului bmp ce va contine
+imaginea decomprimata si matricea sa de pixeli, reprezentata de "matrix".
+
+	
